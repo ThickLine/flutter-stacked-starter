@@ -1,16 +1,32 @@
-# starter
+# **Flutter Starter**
+Flutter starter project using Stacked. 
+https://pub.dev/publishers/filledstacks.com/packages
 
-A new Flutter project.
+Stack:
+- stacked
+- stacked_hooks
+- stacked_services
+- stacked_themes
+- freezed
+- freezed_annotation
+- json_serializable
+- logger
+- permission_handler
+- stack_trace
+- shared_preferences:
+- flutter_native_splash
+- flutter_launcher_icons
+- flutter_dotenv
 
-## Getting Started
+------------
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Run
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`flutter pub run`
+
+
+
+### Generate
+`flutter packages pub run build_runner build --delete-conflicting-outputs`
